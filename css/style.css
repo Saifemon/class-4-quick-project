@@ -1,0 +1,237 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root{
+	--blue-color: #008aff;
+	--dark-blue-color: #0f2656;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	color: #606060;
+}
+
+
+
+/*====================== Header start ===================*/
+
+
+header{
+	padding: 25px 0;
+	border-bottom: 2px solid #cecece;
+	box-shadow: 0px 3px 20px #00000024;
+}
+
+.container-full{
+	padding: 0 100px;
+	display: flex;
+	width: 90%;
+	margin: 0 auto;
+	justify-content: center;
+}
+.logo{
+	flex-basis: 15%;
+}
+.logo a{
+	display: block;
+}
+.logo a img{}
+
+/*menu*/
+
+.menu{
+	flex-basis: 85%;
+}
+.menu ul{
+	list-style: none;
+	display: flex;
+	justify-content: end;
+}
+.menu ul li{}
+.menu ul li a{
+	color: var(--dark-blue-color);
+    font-size: 20px;
+    padding: 10px 15px;
+    font-weight: 600;
+    display: inline;
+    text-decoration: none;
+}
+.nth{
+	padding-right: 0 !important;
+}
+.menu ul li a:hover{}
+
+
+/*====================== Header end =====================*/
+
+
+
+/*====================== Hero Banner start =====================*/
+.banner{
+	padding: 60px 0;
+}
+.container{
+	max-width: 55%;
+    margin: 0 auto;
+}
+.bn{
+	text-align: center;
+	margin-bottom: 60px;
+}
+.bn h1{
+	font-weight: 800;
+	font-size: 50px;
+	    padding: 0 40px;
+	color: var(--dark-blue-color);
+	margin-bottom: 10px;
+}
+.bn h1 span{
+	color: var(--blue-color);
+}
+.bn p{
+	font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .3px;
+    line-height: 25px;
+}
+.bn img{
+	margin: 40px 0 0 0;
+    width: 65%;
+}
+
+/*====================== Hero Banner end =====================*/
+
+
+
+/*====================== Feature section start =====================*/
+.feature{
+	margin-bottom: 60px;
+}
+.feat{
+	width: 100%;
+	display: flex;
+}
+.f-left{
+	width: 43%;
+	margin-right: 20px;
+	text-align: right;
+}
+.f-left h2{
+	font-weight: 700;
+	font-size: 50px;
+	color: #f15767;
+}
+.f-left p{
+	font-size: 16px;
+    font-weight: 400;
+}
+
+.f-right{
+	width: 57%;
+	margin-left: 30px;
+	color: var(--dark-blue-color);
+}
+.f-right h2{
+	font-weight: 800;
+	font-size: 50px;
+}
+
+/*====================== Feature section end =====================*/
+
+
+
+
+/*====================== Services section end =====================*/
+.container-art{
+	display: flex;
+	max-width: 90%;
+	margin: 0 auto;
+	padding: 0 100px;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.service{
+	padding: 100px 0;
+}
+.items{
+	display: flex;
+	text-align: center;
+}
+.item{
+	flex-basis: 33.33%;
+	margin: 0 auto;
+	padding: 15px;
+	box-shadow: 0px 5px 20px #00000024;
+	text-align: left;
+}
+.item img{
+	height: 240px;
+    width: 100%;
+	border-radius: 4px;
+}
+.item h2{
+	font-size: 20px;
+	margin-top: 10px;
+	font-weight: 600;
+	color: var(--dark-blue-color);
+	font-weight: 700;
+}
+.item p{
+	font-size: 16px;
+    font-weight: 400;
+    margin: 15px 0 60px;
+    display: block;
+    line-height: 25px;
+}
+.it-1{
+	background: #fdebed;
+	margin-right: 15px;
+}
+.it-2{
+	background: #ebf9f4;
+	margin: 0 15px;
+}
+.it-3{
+	background: #fff7e8;
+	margin-left: 15px;
+}
+/*====================== Services section end =====================*/
+
+
+
+
+/*====================== Footer start =====================*/
+.footer{
+	background: var(--blue-color);
+	margin-top: 20px;
+	padding: 30px 0;
+}
+.footer p{
+	text-align: center;
+	font-size: 16px;
+	color: #e3e3e3
+}
+.footer p a{
+	display: inline;
+	text-decoration: none;
+	font-weight: 700;
+	color: #ffffff;
+}
+.footer p a:hover{}
+/*====================== Footer end =====================*/
+
+
+
+
+
+
